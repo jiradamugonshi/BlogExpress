@@ -1,0 +1,19 @@
+<form action="/blogs" method="POST">
+    <input type="text" placeholder="name" name="name"><br>
+    <textarea name="blogue" rows="4" cols="50">
+				</textarea><br>
+    <button type="submit">Create blog</button>
+</form>
+
+{{#each blogs}}
+<div class="thumbnail">
+    <span><strong>{{this.name}}:</strong></span><br>
+    <span>{{this.blogue}}</span>
+    <div>
+        <form action="/blogs/{{this._id}}/update" method="GET">
+            <button type="submit">Update</button>
+        </form>
+        <button class="delete" onclick="deleteBlog('{{this._id}}')">Delete</button>
+    </div>
+</div>
+{{/each}}

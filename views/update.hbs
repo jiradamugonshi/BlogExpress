@@ -1,0 +1,7 @@
+<input type="text" value="{{blog.name}}" placeholder="name" id="name"><br>
+<textarea id="blogue" rows="4" cols="50">{{blog.blogue}}
+				</textarea><br>
+<button class="update" onclick="updateBlog('{{blog._id}}')">Update</button>
+<form action="/blogs" method="GET">
+	<button type="submit">Return</button>
+</form>
