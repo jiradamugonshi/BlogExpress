@@ -5,7 +5,7 @@ a blog website with Node.js using Express.js framework and Mongoose
 Node.js, Express.js framework, Mongoose (ODM), MongoDB and Visual Studio as IDE
 
 ## Structure
-The project was organised in such a way:
+The project was organised around these main folders:
   * connections: the folder holds the connections to the database.
   * routes: they are mapping the endpoints to the actions in the controllers.
   * controllers: they hold the logic of how the app handles the incoming requests.
