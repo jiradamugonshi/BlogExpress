@@ -1,6 +1,6 @@
 let mongoose = require('mongoose');
-const server = 'msaghrouni:A123456@ds021771.mlab.com:21771'; 
-const database = 'blogueexpress';
+const server = '#YourServer#'; 
+const database = '#YourDatabase#';
 class Database {
   constructor() {
     this._connect()
