@@ -2,7 +2,7 @@
 A Restful blog website on Node.js paltform where we are performing CRUD operations
 
 ## Technologies
-Node.js, Express.js framework, Mongoose (ODM), MongoDB and Visual Studio as IDE
+Node.js, Express.js framework, Mongoose (ODM), MongoDB and Visual Studio Code as IDE
 
 ## Structure
 The project was organised around these main folders:
